@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context="com.example.android.favourbeats.MainActivity">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cardview_mgt"
+        app:cardBackgroundColor="@color/cardbg_color"
+        app:cardCornerRadius="@dimen/card_rad"
+        app:cardElevation="@dimen/card_ele">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/pad_end"
+            android:paddingRight="@dimen/pad_right"
+            android:paddingLeft="@dimen/pad_left"
+            android:paddingStart="@dimen/pad_start">
+
+            <ImageView
+                android:id="@+id/tone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tone_pdtop"
+                android:paddingBottom="@dimen/tone_pdb"
+                android:src="@drawable/ic_music_note_black_24dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/song"
+                android:id="@+id/song_text_view"
+                android:layout_marginLeft="@dimen/song_mgl"
+                android:textStyle="bold"
+                android:textSize="@dimen/songtxt_size"
+                android:textColor="@color/song_color" />
+
+            <TextView
+                android:id="@+id/artist_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="artist"
+                android:textSize="@dimen/art_size"
+                android:layout_below="@id/song_text_view"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/art_mgb"
+                android:layout_marginLeft="@dimen/art_mgl"
+                android:textColor="@color/art_color" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

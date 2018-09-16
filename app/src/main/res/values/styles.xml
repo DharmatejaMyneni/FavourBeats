@@ -1,0 +1,145 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="cardViewStyle">@style/CardView</item>
+
+    </style>
+
+    <style name="style1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/fb_pdt</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/favour_beats</item>
+    </style>
+
+    <style name="style2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/favour_beats</item>
+        <item name="android:layout_marginLeft">@dimen/rewind_mgl</item>
+        <item name="android:layout_marginTop">@dimen/rewind_mgt</item>
+    </style>
+
+    <style name="style3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/favour_beats</item>
+        <item name="android:layout_toRightOf">@id/fast_rewind</item>
+        <item name="android:layout_marginLeft">@dimen/play_mgl</item>
+        <item name="android:layout_marginTop">@dimen/play_mgt</item>
+    </style>
+
+    <style name="style4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/favour_beats</item>
+        <item name="android:layout_toRightOf">@id/play_arrow</item>
+        <item name="android:layout_marginLeft">@dimen/forw_mgl</item>
+        <item name="android:layout_marginTop">@dimen/forw_mgt</item>
+    </style>
+
+    <style name="style5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/song_name_size</item>
+        <item name="android:layout_below">@id/play_arrow</item>
+        <item name="android:layout_toRightOf">@id/fast_rewind</item>
+        <item name="android:layout_marginTop">@dimen/song_name_mgt</item>
+        <item name="android:layout_marginLeft">@dimen/song_name_mgl</item>
+    </style>
+
+    <style name="style6">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/artist_txtsizse</item>
+        <item name="android:layout_below">@id/song_name</item>
+        <item name="android:layout_toRightOf">@id/fast_rewind</item>
+        <item name="android:layout_marginTop">@dimen/artist_mgt</item>
+        <item name="android:layout_marginLeft">@dimen/artist_mgl</item>
+    </style>
+
+    <style name="style7">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/artist</item>
+        <item name="android:layout_marginTop">@dimen/bar_mgt</item>
+        <item name="android:layout_alignLeft">@id/favour_beats</item>
+        <item name="android:layout_alignRight">@id/favour_beats</item>
+        <item name="android:layout_toRightOf">@id/fast_rewind</item>
+    </style>
+
+    <style name="style8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/fb_pdt</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/favour_beats</item>
+    </style>
+
+    <style name="style9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/favour_beats</item>
+        <item name="android:layout_marginLeft">@dimen/img1_mgl</item>
+        <item name="android:layout_marginTop">@dimen/img1_mgt</item>
+    </style>
+
+    <style name="style10">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/favour_beats</item>
+        <item name="android:layout_toRightOf">@id/fast_rewind</item>
+        <item name="android:layout_marginLeft">@dimen/img2_mgl</item>
+        <item name="android:layout_marginTop">@dimen/img2_mgt</item>
+    </style>
+
+    <style name="style11">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/favour_beats</item>
+        <item name="android:layout_toRightOf">@id/play_arrow</item>
+        <item name="android:layout_marginLeft">@dimen/img3_mgl</item>
+        <item name="android:layout_marginTop">@dimen/img3_mgt</item>
+    </style>
+
+    <style name="style12">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/txt1_size</item>
+        <item name="android:layout_below">@id/play_arrow</item>
+        <item name="android:layout_toRightOf">@id/fast_rewind</item>
+        <item name="android:layout_marginTop">@dimen/txt1_mgt</item>
+        <item name="android:layout_marginLeft">@dimen/txt1_mgl</item>
+    </style>
+
+    <style name="style13">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/txt2_size</item>
+        <item name="android:layout_below">@id/song_name</item>
+        <item name="android:layout_toRightOf">@id/fast_rewind</item>
+        <item name="android:layout_marginTop">@dimen/txt2_mgt</item>
+        <item name="android:layout_marginLeft">@dimen/txt2_mgl</item>
+    </style>
+
+    <style name="style14">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/artist</item>
+        <item name="android:layout_marginTop">@dimen/sb_mgt</item>
+        <item name="android:layout_alignLeft">@id/favour_beats</item>
+        <item name="android:layout_alignRight">@id/favour_beats</item>
+        <item name="android:layout_toRightOf">@id/fast_rewind</item>
+    </style>
+
+</resources>

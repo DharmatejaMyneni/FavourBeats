@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Favour Beats</string>
+    <string name="sec_name">Now Playing</string>
+    <string name="song">Song</string>
+    <string name="song_name">Song Name</string>
+    <string name="artist">Artist</string>
+</resources>
